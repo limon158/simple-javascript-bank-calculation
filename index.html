@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Bank</title>
+    <!-- coustom style -->
+    <link rel="stylesheet" href="style/style.css" />
+    <!-- tailwind  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- header section  -->
+    <header>
+      <section>
+        <h1
+          class="text-4xl text-green-500 text-center mt-16 mb-8 font-semibold"
+        >
+          Welcome to <span class="font-bold">The Personal Bank</span>
+        </h1>
+        <div class="user-information text-center text-xl mb-8">
+          <p class="mb-4">Account No : 104673469</p>
+          <p>Password : 11224</p>
+        </div>
+      </section>
+    </header>
+    <!-- main section  -->
+    <main>
+      <section class="bg-violet-900 w-5/12 rounded-md mx-auto py-8 px-12">
+        <h3 class="text-3xl font-semibold mb-10 text-white">Please Login.</h3>
+        <div>
+          <input
+            id="user-email"
+            class="w-7/12 h-12 px-4 rounded-sm block mb-4 bg-slate-50"
+            type="text"
+            placeholder="Enter your account number"
+          />
+          <input
+            id="user-password"
+            class="w-7/12 h-12 px-4 rounded-sm block mb-4 bg-slate-50"
+            type="password"
+            placeholder="Enter your password"
+          />
+          <button
+            id="btn-submit"
+            class="w-40 h-12 px-4 rounded-sm block mt-8 bg-sky-600 hover:bg-sky-500 text-white font-semibold"
+          >
+            Submit
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- footer section  -->
+    <footer></footer>
+
+    <!-- javaScript  -->
+    <script src="js/login.js "></script>
+  </body>
+</html>
